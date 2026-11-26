@@ -1,0 +1,21 @@
+{
+  "cwru_auc": 1.0,
+  "cwru_f1": 0.9945,
+  "secom_dae_auc": 0.5078,
+  "secom_mlp_auc": 0.5294,
+  "secom_rf_auc": 0.5465,
+  "secom_best_top20_recall": 0.2692,
+  "naive_violations": 105,
+  "cbf_violations": 0,
+  "modeled_total_gwh": 3.93,
+  "lstm_over_mse_pct": 56.0,
+  "lstm_over_q10_pct": 8.7,
+  "lstm_delay_mse_pct": 20.3,
+  "lstm_delay_q10_pct": 1.1,
+  "wb_acc_pct": 96.86,
+  "wb_acid_leak_pct": 2.39,
+  "wb_naive_ruined": 40,
+  "wb_ai_ruined": 0,
+  "wb_avg_reclaim_L": 82.2,
+  "wb_avg_upw_cut_L": 48.1
+}

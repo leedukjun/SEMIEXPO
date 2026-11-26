@@ -1,0 +1,57 @@
+============================================================================
+COMPLETE 5-ALGORITHM + QWEN2.5-7B MODAL GPU REPORT (NVIDIA A10G | 212.9s)
+GPU VRAM Used for 7B BF16: 14.25 GB / 22.1 GB (1 Single On-Prem GPU)
+============================================================================
+
+1A. [100% REAL DATA] CWRU 12 kHz VIBRATION BENCHMARK (engineering.case.edu)
+    • Model:           PyTorch 1D-CNN Autoencoder (10,229 params, ~10 KB INT8)
+    • Test Metrics:    ROC-AUC=1.0000 | F1=0.9945 | Prec=0.9890 | Rec=1.0000 | FPR=1.40%
+    • Confusion Mat:   TN=282, FP=4, FN=0, TP=360
+
+1B. [100% REAL DATA] UCI SECOM SEMICONDUCTOR WAFER FAB (1,567 runs × 590 sensors)
+    • Chronological Split: 70% Train / 30% Test (n=471, real fails=26, base rate=5.52%)
+    • Active Sensors Retained: 440 / 590 (strictly filtered on train split)
+    • Unsupervised Denoising AE:    ROC-AUC=0.5078 | PR-AUC=0.0669
+    • Supervised Weighted MLP:      ROC-AUC=0.5294 | PR-AUC=0.0667
+    • Balanced Random Forest:       ROC-AUC=0.5465 | PR-AUC=0.0712 | Recall@Top20% (Balanced RF)=26.9%
+
+2.  [PHYSICS DIGITAL TWIN] PYTORCH OFFLINE CQL + MATHEMATICAL CBF SHIELD
+    • Unconstrained PyTorch RL Violations (<95 C): 105 steps
+    • PyTorch Offline CQL + CBF Violations:        0 steps (ZERO)
+    • Modeled Energy Saved (400 Pumps + Chiller):  3.93 GWh/yr (2.65 + 1.27)
+
+3A. [SYNTHETIC PHYSICS BENCHMARK] PYTORCH LSTM IDLE PREDICTOR (PINBALL q=0.10)
+    • Model Size:      5,537 params
+    • Overpredict Rate (Early Wafer):   MSE=56.0% vs. Pinball(q=0.10)=8.7%
+    • Wafer-Delay Risk (>2m overpred):  MSE=20.3% vs. Pinball(q=0.10)=1.1%
+
+3B. [SYNTHETIC PHYSICS BENCHMARK] PYTORCH WET BENCH 1D-CNN + BUBBLE FILTER
+    • Model Size:      1,155 params (Weighted CE 5:1:1 + Softmax 3-Phase + 3s Debounce)
+    • Phase Accuracy:  96.86% | Acid-to-Reclaim Leakage: 2.39%
+    • Bubble-Glitch Stress Test (40 lots): Naive PLC ruined 40/40 vs. AI+Filter ruined 0/40
+    • Modeled Water Impact / Rinse Cycle:  Reclaimed=82.2 L | Fresh UPW Cut Early=48.1 L
+
+4.  [100% REAL PDF HYBRID RAG + 7B LLM] (1106 chunks TSMC 2025 PDF + Qwen/Qwen2.5-7B-Instruct)
+----------------------------------------------------------------------------
+QUERY 1: What specific energy-saving technologies, chiller/HVAC or fab equipment measures, and electricity savings metrics are reported in TSMC's 2025 Sustainability Report?
+Top Real PDF Pages: [2025-TSMC-Sustainability-Report-e.pdf, p. 102] (0.723), [2025-TSMC-Sustainability-Report-e.pdf, p. 101] (0.677), [2025-TSMC-Sustainability-Report-e.pdf, p. 104] (0.643), [2025-TSMC-Sustainability-Report-e.pdf, p. 102] (0.624), [2025-TSMC-Sustainability-Report-e.pdf, p. 103] (0.613)
+
+- Executed 2,141 energy conservation measures across eight categories, including tool exhaust reduction, optimization of cooling water temperature and usage, optimization of pipeline heating system temperatures, installation of aerogel insulation kits, and upgrades to hot water recovery tanks [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+- Replaced yellow-light fixtures with LED lighting [2025-TSMC-Sustainability-Report-e.pdf, p. 104]
+- Implemented an AI-powered chilled water energy-saving system [2025-TSMC-Sustainability-Report-e.pdf, p. 104]
+- Converted air compressor cooling water supply from chilled water to warm water [2025-TSMC-Sustainability-Report-e.pdf, p. 104]
+- Reduced standby temperature for local scrubber backup units [2025-TSMC-Sustainability-Report-e.pdf, p. 104]
+- Completed testing of standby energy-saving modes for electric-heating local scrubbers [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+- Reduced peak power consumption by 44% through the EUV Dynamic Energy Saving Program while maintaining production capacity [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+- Achieved approximately 900 GWh of annual energy savings [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+- Reduced nearly 420,000 metric tons of CO2 emissions [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+- Generated electricity cost savings of approximately NT$3.85 billion [2025-TSMC-Sustainability-Report-e.pdf, p. 102]
+----------------------------------------------------------------------------
+QUERY 2: What water reclamation rates, reclaimed water plant progress, and water conservation measures are reported in TSMC's 2025 Sustainability Report?
+Top Real PDF Pages: [2025-TSMC-Sustainability-Report-e.pdf, p. 106] (0.807), [2025-TSMC-Sustainability-Report-e.pdf, p. 109] (0.671), [2025-TSMC-Sustainability-Report-e.pdf, p. 134] (0.660), [2025-TSMC-Sustainability-Report-e.pdf, p. 108] (0.660), [2025-TSMC-Sustainability-Report-e.pdf, p. 134] (0.660)
+
+- Cumulative reclaimed water use at Taiwan fabs reached 23.53 million cubic meters in 2025, with a substitution rate of 18% [2025-TSMC-Sustainability-Report-e.pdf, p. 106].
+- TSMC plans to introduce reclaimed water from the Kaohsiung Qiaotou facility and expand the TSMC S.T.S.P. Reclaimed Water Plant, aiming for a daily supply capacity of 30,000 cubic meters by 2028 [2025-TSMC-Sustainability-Report-e.pdf, p. 106].
+- TSMC adopts alternative water sources such as reclaimed water and desalinated seawater to enhance water conservation and achieve Water Positive impact [2025-TSMC-Sustainability-Report-e.pdf, p. 106].
+- TSMC uses low-conductivity water treatment technologies, increases reclaimed water usage, and lowers salinity in discharge to minimize impacts on aquatic ecosystems [2025-TSMC-Sustainability-Report-e.pdf, p. 134].
+============================================================================
