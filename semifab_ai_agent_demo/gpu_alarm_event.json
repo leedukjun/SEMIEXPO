@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-11-26T15:40:00+07:00",
+  "dataset_source": "REAL CWRU 12 kHz Bearing Dataset (engineering.case.edu: 97.mat vs 105.mat/118.mat/130.mat)",
+  "gpu_runtime": "NVIDIA L4",
+  "model": "PyTorch 1D-CNN Autoencoder (10,229 params, ~10.0 KB INT8)",
+  "fab_bay": "BAY-04-LPCVD",
+  "pump_id": "DRY-PUMP-042 (Edwards iXH610)",
+  "process_gases": [
+    "SiH4",
+    "NH3",
+    "N2"
+  ],
+  "dominant_fault_freq_khz": 3.6,
+  "autoencoder_peak_mse": 15368.7617,
+  "threshold_3sigma": 0.6127,
+  "test_metrics": {
+    "roc_auc": 1.0,
+    "f1": 0.9945,
+    "precision": 0.989,
+    "recall": 1.0,
+    "fpr": 0.014
+  },
+  "plc_safety_action": "ECO_MODE_BLOCKED -> LOCKED_100_PCT_RPM (NO_SHUTDOWN)"
+}
